@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.5b2b7441.chunk.css",
+    "main.js": "/static/js/main.a97dfddb.chunk.js",
+    "main.js.map": "/static/js/main.a97dfddb.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/css/2.60a6b8e0.chunk.css": "/static/css/2.60a6b8e0.chunk.css",
+    "static/js/2.e7c2be2a.chunk.js": "/static/js/2.e7c2be2a.chunk.js",
+    "static/js/2.e7c2be2a.chunk.js.map": "/static/js/2.e7c2be2a.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.1c513d5d22d9f7fe01828b3c9038686b.js": "/precache-manifest.1c513d5d22d9f7fe01828b3c9038686b.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.60a6b8e0.chunk.css.map": "/static/css/2.60a6b8e0.chunk.css.map",
+    "static/css/main.5b2b7441.chunk.css.map": "/static/css/main.5b2b7441.chunk.css.map",
+    "static/media/ABDevDesign.png": "/static/media/ABDevDesign.7d4afcf6.png",
+    "static/media/ABLogo.png": "/static/media/ABLogo.2002a748.png",
+    "static/media/AminoAvatar.png": "/static/media/AminoAvatar.77bc92c6.png",
+    "static/media/BugIcon.jpg": "/static/media/BugIcon.901c8230.jpg",
+    "static/media/ContactPhoto.jpg": "/static/media/ContactPhoto.1145d22c.jpg",
+    "static/media/FullStack.png": "/static/media/FullStack.8d0000ef.png",
+    "static/media/ProfilePhoto.png": "/static/media/ProfilePhoto.f14dfc63.png"
+  }
+}
