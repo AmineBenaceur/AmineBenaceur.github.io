@@ -115,7 +115,8 @@
 }
 .contact-body p{
 padding-top: 20px;
-font-size: 14px;
+font-size: 1em;
+text-align: center;
 }
 
 .contact-grid{

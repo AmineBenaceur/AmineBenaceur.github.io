@@ -22,7 +22,7 @@
                         </CardText>
                                 <CardActions border>
                                     <Button colored href="https://github.com/AmineBenaceur/MoneyWatch" target="_blank"> GitHub</Button>
-                                    <Button colored href="https://aminebenaceur.github.io/MoneyWatch/" target="_blank"> Link </Button>
+                                    <Button colored href="http://adarshmelethil.com/MoneyWatch/" target="_blank"> Link </Button>
                                 </CardActions>
                                 <CardMenu Style={{ color: '#fff' }}>
                                     <IconButton name="share" />
@@ -67,7 +67,7 @@
                                     MoneyWatch - Prototype
                 </CardTitle>
                                 <CardText>
-                                    Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                    A prototype for MoneyWatch - a stock research and prediction application. Includes use cases from most important application functionalities. 
             </CardText>
                                 <CardActions border>
                                     <Button colored href="https://www.youtube.com/watch?v=35hq-JhyyAo&t=3s" target="_blank">> Live Demo</Button>
@@ -109,7 +109,7 @@
                                 Multi-threaded Client Server TicTacToe
                                 </CardTitle>
                             <CardText>
-                            A multi threaded TicTacToe client server Java application with SwingGUI.
+                            A multi threaded TicTacToe client server Java application with SwingGUI. Players can choose to play against random, blocking or smart AI Bots or against other players.
 
             </CardText>
                             <CardActions border>
@@ -128,8 +128,8 @@
                             A functional java application which implements the MVC design pattern to track clients and info for a company.
         </CardText>
                             <CardActions border>
-                                <Button colored href="https://github.com/AmineBenaceur/todo" target="_blank"> GitHub</Button>
-                                <Button colored href="https://aminebenaceur.github.io/todo/" target="_blank"> Link </Button>
+                                <Button colored href="https://github.com/AmineBenaceur/ClientManager" target="_blank"> GitHub</Button>
+                                
                                 
                             </CardActions>
                             <CardMenu Style={{ color: '#fff' }}>
@@ -145,7 +145,7 @@
                                 A Java application to track inventory items in stock, make orders, browse and search tools & items by various attriubutes. 
         </CardText>
                             <CardActions border>
-                                <Button colored href="https://www.youtube.com/watch?v=35hq-JhyyAo&t=3s" target="_blank">> Live Demo</Button>
+                                <Button colored href="https://github.com/AmineBenaceur/InventoryManager" target="_blank"> GitHub</Button>
                                 
                             </CardActions>
                             <CardMenu Style={{ color: '#fff' }}>
@@ -155,11 +155,11 @@
                         </Cell>
                         <Cell>
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }} >
-                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://images.pexels.com/photos/1586525/pexels-photo-1586525.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940) center / cover' }}>
+                        <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://images.pexels.com/photos/1811991/pexels-photo-1811991.jpeg?auto=format%2Ccompress&cs=tinysrgb&dpr=2&h=650&w=940) center / cover' }}>
                            Employee Manager CLI
                             </CardTitle>
                         <CardText>
-                          A employee tracked on the command line designed for use with ease and speed. 
+                          A employee managment application interface on the command line designed for use with ease and speed. 
 
         </CardText>
                         <CardActions border>
