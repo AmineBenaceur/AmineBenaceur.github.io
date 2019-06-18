@@ -26,7 +26,7 @@ class About extends Component{
                         <div className="about-me-text">
                             <h2 >   Who I Am </h2>
                             {/* <hr/> */}
-                            <p> <span className="about-me-span"> Hello! I'm <strong>Amine</strong>, a <strong>Software Engineering</strong> student based in <strong>Calgary, AB </strong> who enjoys building things that live on the internet. I develop exceptional <strong>Websites</strong> and <strong> Applications</strong> that provide intuitive, pixel-perfect <strong> User Interfaces </strong> with efficient and <strong>Modern Backends </strong>. My intrests include <strong> Web-System Design </strong>, <strong> Tech Entrepreneurship </strong> and <strong> Human-Computer Interaction</strong> but are growing everyday. When I'm not on my MacBook, I prefer to be playing sports or enjoying the outdoors. </span>  </p>
+                            <p> <span className="about-me-span"> Hello! I'm <strong>Amine</strong>, a <strong>Software Engineering</strong> student based in <strong>Calgary, AB </strong> who enjoys building things that live on the internet. I develop exceptional <strong>Websites</strong> and <strong> Applications</strong> that provide intuitive, pixel-perfect <strong> User Interfaces </strong> with efficient and <strong>Modern Backends </strong>. My intrests include <strong> Web-System Design </strong>, <strong> Software Testing & QA </strong> and <strong> Human-Computer Interaction</strong> but are growing everyday. When I'm not coding away on my MacBook, I prefer to be playing sports, listening to music or enjoying the outdoors. </span>  </p>
                         </div>
                         <br/>
                         {/* <hr/> */}
