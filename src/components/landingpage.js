@@ -1,9 +1,16 @@
 import React, {Component} from 'react';
 import {Grid,Cell} from 'react-mdl'
 import AminoAvatar from './AminoAvatar.png';
+import ReactGA from 'react-ga';
+
 
 class LandingPage extends Component{
+    componentDidMount() {
+        ReactGA.initialize('UA-142421303-1');
+     }
+     
     render(){
+        
         return(
             
             <div style={{width: '100%', margin: 'auto'}}>
