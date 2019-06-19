@@ -5,11 +5,20 @@ import Main from './components/main';
 import { Link } from 'react-router-dom';
 import ABLogo from './components/ABLogo.png';
 import ABLogo1 from './components/ABDevDesign.png';
+import ReactGA from 'react-ga';
+import {PageView, initGA} from './components/Tracking';
+
 function App() {
+  function componentDidMount() {
+    ReactGA.initialize('UA-142421303-1');
+    PageView();
+ }
   return (
     <div className="demo-big-content">
+    
     <Layout>
-        <Header  className= "header-color" title={<h3 color="white"> 
+        <Header  className= "header-color" title={<h3 color="white">
+   
         <a className="header-link" href="/"> <img
                     src={ABLogo1}
                     alt= "logo"
@@ -41,7 +50,8 @@ function App() {
     </Layout>
 </div>
   );
-  
+
+
 }
 
 export default App;
