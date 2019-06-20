@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import { Layout, Header, Drawer, Navigation, Content } from 'react-mdl';
 import Main from './components/main';
@@ -8,11 +8,14 @@ import ABLogo1 from './components/ABDevDesign.png';
 import ReactGA from 'react-ga';
 import {PageView, initGA} from './components/Tracking';
 
-function App() {
-  function componentDidMount() {
-    ReactGA.initialize('UA-142421303-1');
-    PageView();
- }
+ReactGA.initialize('UA-142421303-1');
+
+class App extends Component {
+
+  componentDidMount  = () => ReactGA.pageview(window.location.pathname + window.location.search);
+  componentDidUpdate = () => ReactGA.pageview(window.location.pathname + window.location.search);
+  
+  render(){
   return (
     <div className="demo-big-content">
     
@@ -50,7 +53,7 @@ function App() {
     </Layout>
 </div>
   );
-
+      }
 
 }
 
