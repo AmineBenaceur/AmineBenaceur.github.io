@@ -243,6 +243,23 @@
             else if (this.state.activeTab === 3) {
                 return (
                     <div className="projects-grid">
+
+
+                        <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }} >
+                            <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://help.twitter.com/content/dam/help-twitter/logos/card_small_red.png) center / cover' }}>
+                                TwitterClone
+                    </CardTitle>
+                            <CardText>
+                            Ruby on Rails application to mimic the twitter website functionality.  
+                    </CardText>
+                            <CardActions border>
+                                <Button colored href="https://github.com/AmineBenaceur/TwitterClone" target="_blank"> GitHub</Button>
+                                
+                            </CardActions>
+                            <CardMenu Style={{ color: '#fff' }}>
+                                <IconButton name="share" />
+                            </CardMenu>
+                        </Card>
                    
                         <Card shadow={5} style={{ minWidth: '450', margin: 'auto' }} >
                             <CardTitle style={{ color: '#fff', height: '176px', background: 'url(https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Ruby_On_Rails_Logo.svg/1200px-Ruby_On_Rails_Logo.svg.png) center / cover' }}>
@@ -259,8 +276,10 @@
                                 <IconButton name="share" />
                             </CardMenu>
                         </Card>
-                
 
+
+                
+                        
                 </div>
                 )
             }
